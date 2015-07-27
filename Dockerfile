@@ -5,9 +5,6 @@ CMD [ "python", "./lena.py" ]
 # File Author / Maintainer
 MAINTAINER Paulina Lach
 
-# Update the repository sources list
-RUN apt-get update
-
 ADD ./lena.py /home/lena.py
 RUN python /home/lena.py
 
