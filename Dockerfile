@@ -6,6 +6,5 @@ CMD [ "python", "./lena.py" ]
 MAINTAINER Paulina Lach
 
 ADD ./lena.py /home/lena.py
-RUN python /home/lena.py
 
 ENTRYPOINT /home/lena.py
