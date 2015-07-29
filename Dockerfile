@@ -1,6 +1,6 @@
 # Set the base image to Ubuntu
 FROM python:3-onbuild
-CMD [ "python", "./home/lena.py" ]
+CMD [ "python", "/home/lena.py" ]
 
 # File Author / Maintainer
 MAINTAINER Paulina Lach
