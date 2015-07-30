@@ -11,5 +11,6 @@ RUN apt-get install -y build-essential gfortran libblas-dev libatlas-dev liblapa
 RUN pip install scipy
 
 ADD ./lena.py /home/lena.py
+RUN chmod 777 /home/lena.py
 
 ENTRYPOINT /home/lena.py
